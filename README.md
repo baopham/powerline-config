@@ -8,7 +8,7 @@ Added:
 git clone git://github.com/baopham/powerline-config.git ~/.config/powerline
 ```
 
-Then put this in your `.zshrc` ot `.bashrc`:
+Then put this in your `.zshrc` or `.bashrc`:
 ```
 export PYTHONPATH=$PYTHONPATH:$HOME/.config/powerline
 ```
