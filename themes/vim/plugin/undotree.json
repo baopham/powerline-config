@@ -1,0 +1,19 @@
+{
+	"default_module": "powerline.segments.plugin.undotree",
+	"segments": {
+		"left": [
+			{
+				"type": "string",
+				"highlight_group": ["undotree.name", "file_name"],
+				"contents": "Undo tree"
+			},
+			{
+				"type": "string",
+				"highlight_group": ["undotree.background", "background"],
+				"draw_soft_divider": false,
+				"draw_hard_divider": false,
+				"width": "auto"
+			}
+		]
+	}
+}
