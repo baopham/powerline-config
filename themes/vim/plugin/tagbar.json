@@ -1,0 +1,19 @@
+{
+	"default_module": "powerline.segments.plugin.tagbar",
+	"segments": {
+		"left": [
+			{
+				"type": "string",
+				"highlight_group": ["tagbar.name", "file_name"],
+				"contents": "Tagbar"
+			},
+			{
+				"type": "string",
+				"highlight_group": ["tagbar.background", "background"],
+				"draw_soft_divider": false,
+				"draw_hard_divider": false,
+				"width": "auto"
+			}
+		]
+	}
+}

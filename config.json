@@ -44,7 +44,8 @@
 				"powerline.matchers.plugin.gundo.gundo": "plugin/gundo",
 				"powerline.matchers.plugin.gundo.gundo_preview": "plugin/gundo-preview",
 				"powerline.matchers.plugin.undotree.undotree": "plugin/undotree",
-				"powerline.matchers.plugin.undotree.undotree_preview": "plugin/undotree-preview"
+				"powerline.matchers.plugin.undotree.undotree_preview": "plugin/undotree-preview",
+				"powerline.matchers.plugin.tagbar.tagbar": "plugin/tagbar"
 			}
 		},
 		"wm": {
