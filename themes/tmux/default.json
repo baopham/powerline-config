@@ -2,44 +2,33 @@
 	"default_module": "powerline.segments.common",
 	"segment_data": {
 		"uptime": {
-			"before": "⇑  "
+			"before": " ⇑  "
 		},
 		"external_ip": {
-			"before": "ⓦ  "
+			"before": "ⓦ  ",
+			"after": " "
 		},
-		"date": {
-			"before": "⌚ "
-		},
-		"email_imap_alert": {
-			"before": "✉ ",
-			"args": {
-				"username": "",
-				"password": ""
-			}
+		"hostname": {
+			"before": " "
 		}
 	},
 	"segments": {
 		"right": [
 			{
 				"name": "uptime",
-				"priority": 50
-			},
-			{
-				"name": "system_load",
-				"priority": 50
-			},
-			{
-				"name": "date"
-			},
-			{
-				"name": "date",
+				"priority": 50,
 				"args": {
-					"format": "%H:%M",
-					"istime": true
-				}
+					"minutes_format": "",
+					"seconds_format": ""
+				},
+				"draw_hard_divider": false
 			},
 			{
-				"name": "hostname"
+				"name": "external_ip"
+			},
+			{
+				"name": "hostname",
+				"draw_hard_divider": false
 			}
 		]
 	}
