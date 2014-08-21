@@ -1,17 +1,5 @@
 {
 	"default_module": "powerline.segments.common",
-	"segment_data": {
-		"uptime": {
-			"before": " ⇑  "
-		},
-		"external_ip": {
-			"before": "ⓦ  ",
-			"after": " "
-		},
-		"hostname": {
-			"before": " "
-		}
-	},
 	"segments": {
 		"right": [
 			{
@@ -21,14 +9,19 @@
 					"minutes_format": "",
 					"seconds_format": ""
 				},
+				"before": " ⇑  ",
 				"draw_hard_divider": false
 			},
 			{
-				"name": "external_ip"
+				"name": "external_ip",
+				"draw_hard_divider": false,
+				"before": " ⓦ  ",
+				"after": " "
 			},
 			{
 				"name": "hostname",
-				"draw_hard_divider": false
+				"draw_hard_divider": false,
+				"before": " "
 			}
 		]
 	}
