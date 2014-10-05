@@ -1,9 +1,8 @@
 {
-	"default_module": "powerline.segments.common",
 	"segments": {
 		"right": [
 			{
-				"name": "uptime",
+				"function": "powerline.segments.common.sys.uptime",
 				"priority": 50,
 				"args": {
 					"minutes_format": "",
@@ -13,13 +12,17 @@
 				"draw_hard_divider": false
 			},
 			{
-				"name": "external_ip",
+				"function": "powerline.segments.common.sys.system_load",
+				"priority": 50
+			},
+			{
+				"function": "powerline.segments.common.net.external_ip",
 				"draw_hard_divider": false,
-				"before": " ⓦ  ",
+				"before": "ⓦ  ",
 				"after": " "
 			},
 			{
-				"name": "hostname",
+				"function": "powerline.segments.common.net.hostname",
 				"draw_hard_divider": false,
 				"before": " "
 			}
