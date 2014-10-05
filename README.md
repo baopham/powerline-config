@@ -1,7 +1,8 @@
 See: [Powerline](https://github.com/Lokaltog/powerline)
 
 Added:
-* Undotree segment
+* Undotree plugin
+* Tagbar plugin
 
 ```
 git clone git://github.com/baopham/powerline-config.git ~/.config/powerline
