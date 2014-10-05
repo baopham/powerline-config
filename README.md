@@ -15,7 +15,9 @@ export PYTHONPATH=$PYTHONPATH:$HOME/.config/powerline
 Tmux
 ----
 
-Screenshot (omitting IP segment): http://cl.ly/image/411m2p2O2Q17
+Screenshot (omitting IP segment):
+
+![screenshot](http://cl.ly/image/2f2j1q37023q/Screen%20Shot%202014-10-04%20at%209.36.01%20PM.png)
 
 Put this in your `.tmux.conf`:
 ```
