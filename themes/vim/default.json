@@ -50,7 +50,7 @@
 			{
 				"exclude_modes": ["i", "R", "Rv"],
 				"function": "trailing_whitespace",
-				"display": false,
+				"display": true,
 				"priority": 60
 			},
 			{
